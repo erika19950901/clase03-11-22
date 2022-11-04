@@ -1,11 +1,15 @@
 header {
             color:blue;
+            background-image:url("imagen.svg");
+            font-family: Arial, Helvetica, sans-serif;
+            background-size:contain;
+
         }
         nav {
             
             width: 100%;
-            border: 1px solid blue;            
-            background-color: #d7d9e0;
+            border: 1px solid rgb(207, 35, 130);            
+            background-color: #97265b;
         }
         aside {
             float: right;
@@ -24,7 +28,7 @@ header {
             text-decoration: underline red;
         }
         body{
-            background-color: bisque;
+            background-color: rgb(124, 143, 122);
         }
 		ul{
 			display:flex;
